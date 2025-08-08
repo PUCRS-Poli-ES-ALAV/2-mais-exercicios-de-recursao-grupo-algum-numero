@@ -101,8 +101,16 @@ public class App{
     }
 
     public static void main(String[] args) {
-        System.out.println(findBiggest(new ArrayList<>(Arrays.asList(30, 5, 2, 9, 10))));
-        System.out.println(findSubStr("hello world", "llo wo"));
-        System.out.println(findSubStr("hello world", "worlds"));
+        System.out.println("Fatorial: "+factorial(5));
+        System.out.println("Somatorio: "+somatorio(5));
+        System.out.println("Fibonacci: "+fibonacci(6));
+        System.out.println("Somatorio Entre 2 Num: "+somatorioEntre(5, 2));
+        System.out.println("Palindromo: "+isPal("farigiraf"));
+        System.out.println("Conversao para base 2: "+convBase2(10));
+        System.out.println("Soma de Array: "+arraySum(new int[]{1, 2, 3, 4, 5}, 4));
+        System.out.println("Numero de digitos: "+nroDigit(12345));
+        System.out.println("Maior num: "+findBiggest(new ArrayList<>(Arrays.asList(30, 5, 2, 9, 10))));
+        System.out.println("Substring: "+findSubStr("hello world", "llo wo"));
+        System.out.println("Substring: "+findSubStr("hello world", "worlds"));
     }
 }
